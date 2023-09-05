@@ -1,0 +1,437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Data>
+  <SoftwareRequirementsSets>
+    <SoftwareRequirement>
+      <Name>Accessible Literacy Learning (ALL)</Name>
+      <Version>1.4.0.832</Version>
+      <Language>US-English, UK-English, Norwegian, Swedish</Language>
+      <LanguageID>1033, 2057, 1044, 1053</LanguageID>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Boardmaker Student Center</Name>
+      <Version>1.8.0.13231</Version>
+      <Model>I-110, I-Series+, TEM12, Indi, Indi 7</Model>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Boardmaker 7 Student Center</Name>
+      <Version>7.2.5.0</Version>
+      <Model>ISeries</Model>
+      <Language>US-English, UK-English, German, Norwegian, Swedish, Danish, French, Spanish, Italian, Portugul(Br), Finnish</Language>
+	  <LanguageID>1033, 2057, 1031, 1044, 1053, 1030, 1036, 3082, 1040, 1046, 1035</LanguageID>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>TobiiDynavox.DiscoverTobiiDynavox</Name>
+      <Version>1.4.2.0</Version>
+      <Model>ISeries, I-Series+, I-110, Indi, Indi 7</Model>
+      <OS>Pro</OS>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>I-110 User's Manual</Name>
+      <Version>1.0.0.0</Version>
+      <Model>I-110-850</Model>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>I-Series Control Center</Name>
+      <Version>1.4.13.1670</Version>
+      <Model>I-Series+</Model>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>I-Series Screen Rotation Listener</Name>
+      <Version>1.1.1.0</Version>
+      <Model>I-Series</Model>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>I-Series User's Manual</Name>
+      <Version>1.0.3.0</Version>
+      <Model>I-Series, ISeries</Model>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>ISeries Platform Utilities</Name>
+      <Version>1.0.0.2</Version>
+      <Model>I-Series, ISeries</Model>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Join-In</Name>
+      <Version>2.3.10.19</Version>
+      <Model>I-Series, ISeries</Model>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Join-In Page Sets</Name>
+      <Version>2.1.0.6</Version>
+      <Model>I-Series, ISeries</Model>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Magic Eye FX iSeries</Name>
+      <Version>2.1.0</Version>
+      <Model>ISeries</Model>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Mirror for Android</Name>
+      <Version>1.19.1.11</Version>
+      <Model>I-Series, ISeries</Model>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>ONYX SDK Service</Name>
+      <Version>3.30.0.0</Version>
+      <Model>I-110-850</Model>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>TobiiDynavox.Snap</Name>
+      <Version>1.28.1.3501</Version>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Sensory Eye FX 2 Demo</Name>
+      <Version>2.1.8d</Version>
+      <Model>I-Series</Model>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Pathways For Core First</Name>
+      <Version>3.2.1.0</Version>
+      <Model>ISeries, I-Series+, Indi, Indi 7, TEM12</Model>
+      <OS>Pro</OS>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Tobii Eye Tracker HID package</Name>
+      <Version>2.8.5.6</Version>
+      <Model>I-Series+</Model>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Tobii Eye Tracking</Name>
+      <Version>2.16.6.182</Version>
+      <Model>TEM12</Model>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Tobii Experience Software For Windows (I-SeriesLarge)</Name>
+      <Version>4.180.0.29190</Version>
+      <Model>I-Series</Model>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Tobii Experience Software For Windows (I-Series)</Name>
+      <Version>4.180.0.29190</Version>
+      <Model>ISeries</Model>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Tobii Dynavox Browse</Name>
+      <Version>1.17.0.1724</Version>
+      <Model>I-Series, ISeries</Model>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Tobii Dynavox Communicator 5</Name>
+      <Version>5.6.0.65093</Version>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Tobii Dynavox Configuration Manager</Name>
+      <Version>2.3.3.0</Version>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Tobii Dynavox Control</Name>
+      <Version>1.79.1.837</Version>
+      <Model>I-Series, ISeries</Model>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Tobii Dynavox Diagnostic Tool</Name>
+      <Version>7.3.7165.529</Version>
+      <Model>ISeries, I-Series+, I-110, Indi, Indi 7</Model>
+      <OS>Pro</OS>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Tobii Dynavox Eye Tracking</Name>
+      <Version>3.1.7.2703</Version>
+      <Model>I-Series, ISeries</Model>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Tobii Dynavox Gaze Interaction Software</Name>
+      <Version>2.11.0.2700</Version>
+      <Model>I-Series+</Model>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Tobii Dynavox Gaze Viewer</Name>
+      <Version>1.2.0.63881</Version>
+      <Model>I-Series, ISeries</Model>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Tobii Dynavox Hardware Service</Name>
+      <Version>1.0.8.0</Version>
+      <Model>I-Series, ISeries, I-110-850</Model>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Tobii Dynavox Hardware Service</Name>
+      <Version>1.2.3.44</Version>
+      <Model>I-110</Model>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Tobii Dynavox Hardware Settings</Name>
+      <Version>1.8.0.0</Version>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Tobii Dynavox Hardware Licensing Service</Name>
+      <Version>2.2.3.0</Version>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Tobii Dynavox Hardware Test Utility</Name>
+      <Version>1.4.0.0</Version>
+      <Model>I-Series, ISeries, I-110-850</Model>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Tobii Dynavox Hardware Listener</Name>
+      <Version>1.8.0.0</Version>
+      <Model>I-Series, ISeries</Model>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Tobii Dynavox I-Series BIOS Updater</Name>
+      <Version>1.1.0.0</Version>
+      <Model>I-Series, ISeries, I-Series+</Model>
+    </SoftwareRequirement>
+	<SoftwareRequirement>
+      <Name>Tobii Dynavox I-110 BIOS Updater</Name>
+      <Version>1.0.0.5</Version>
+      <Model>I-110</Model>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Tobii Dynavox Phone</Name>
+      <Version>1.9.0.4421</Version>
+      <Model>I-Series, ISeries</Model>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Tobii Dynavox Snap Scene</Name>
+      <Version>1.2.5.185</Version>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Tobii Dynavox Startup Wizard</Name>
+      <Version>1.2.1.46</Version>
+      <Model>I-Series, ISeries, I-Series+, I-110, Indi, Indi 7</Model>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Tobii Dynavox Startup App Launcher</Name>
+      <Version>1.6.0.0</Version>
+      <Model>I-110-850</Model>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Tobii Dynavox Switcher</Name>
+      <Version>2.2.1.2423</Version>
+      <Model>I-Series, ISeries</Model>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Tobii Dynavox Talk</Name>
+      <Version>1.18.0.2055</Version>
+      <Model>I-Series, ISeries</Model>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Tobii Dynavox Update Notifier</Name>
+      <Version>1.8.1.62923</Version>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Tobii Dynavox Telephony Bluetooth Driver</Name>
+      <Version>17.21.19</Version>
+      <Model>I-Series, ISeries</Model>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Tobii Dynavox Windows Control</Name>
+      <Version>2.0.12.4456</Version>
+      <Model>TEM12</Model>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Tobii Service</Name>
+      <Version>1.25.4.7400</Version>
+      <Model>I-Series+</Model>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Windows Settings Utility</Name>
+      <Version>1.9.0.406</Version>
+      <Model>I-Series+</Model>
+    </SoftwareRequirement>
+    <SoftwareRequirement>
+      <Name>Zoom (32-bit)</Name>
+      <Version>5.15.20303</Version>
+    </SoftwareRequirement>
+	<SoftwareRequirement>
+      <Name>US English Voices for Tobii Communicator</Name>
+      <Version>3.1.0.151</Version>
+	  <Language>US-English</Language>
+	  <LanguageID>1033</LanguageID>
+    </SoftwareRequirement>
+	<SoftwareRequirement>
+      <Name>UK English Voices for Tobii Communicator</Name>
+      <Version>3.1.0.151</Version>
+	  <Language>UK-English</Language>
+	  <LanguageID>2057</LanguageID>
+    </SoftwareRequirement>
+	<SoftwareRequirement>
+      <Name>Deutsche Stimmen für Tobii Communicator</Name>
+      <Version>3.0.0.136</Version>
+	  <Language>German</Language>
+	  <LanguageID>1031</LanguageID>
+    </SoftwareRequirement>	
+	<SoftwareRequirement>
+      <Name>Norske stemmer for Tobii Communicator</Name>
+      <Version>3.2.0.169</Version>
+	  <Language>Norwegian</Language>
+	  <LanguageID>1044</LanguageID>
+    </SoftwareRequirement>
+	<SoftwareRequirement>
+      <Name>Svenska röster till Tobii Communicator</Name>
+      <Version>3.2.0.162</Version>
+	  <Language>Swedish</Language>
+	  <LanguageID>1053</LanguageID>
+    </SoftwareRequirement>
+	<SoftwareRequirement>
+      <Name>Nederlandse stemmen voor Tobii Communicator</Name>
+      <Version>3.3.0.204</Version>
+	  <Language>Dutch</Language>
+	  <LanguageID>1043</LanguageID>
+    </SoftwareRequirement>
+	<SoftwareRequirement>
+      <Name>Danske stemmer til Tobii Communicator</Name>
+      <Version>3.0.0.136</Version>
+	  <Language>Danish</Language>
+	  <LanguageID>1030</LanguageID>
+    </SoftwareRequirement>
+	<SoftwareRequirement>
+	  <Name>Voix françaises pour Tobii Communicator</Name>
+      <Version>3.3.0.204</Version>
+	  <Language>French</Language>
+	  <LanguageID>1036</LanguageID>
+    </SoftwareRequirement>
+	<SoftwareRequirement>
+      <Name>Voces españolas para Tobii Communicator</Name>
+      <Version>3.1.0.151</Version>
+	  <Language>Spanish</Language>
+	  <LanguageID>3082</LanguageID>
+    </SoftwareRequirement> 	
+	<SoftwareRequirement>
+      <Name>Voci italiane per Tobii Communicator</Name>
+      <Version>3.0.0.136</Version>
+	  <Language>Italian</Language>
+	  <LanguageID>1040</LanguageID>
+    </SoftwareRequirement>	
+	<SoftwareRequirement>
+      <Name>Vozes de português para o Tobii Communicator</Name>
+      <Version>3.0.0.136</Version>
+	  <Language>Portugul(Br)</Language>
+	  <LanguageID>1046</LanguageID>
+    </SoftwareRequirement>
+	<SoftwareRequirement>
+      <Name>Tobii Communicator suomalaiset äänet</Name>
+      <Version>3.0.0.136</Version>
+	  <Language>Finnish</Language>
+	  <LanguageID>1035</LanguageID>
+    </SoftwareRequirement>
+ </SoftwareRequirementsSets>
+  
+  <C5set>
+	<C5>
+      <C5Name>Sono Key</C5Name>
+      <Language>US-English, UK-English, German, Norwegian, Swedish, Dutch, Danish, French, Spanish, Portugul(Br), Finnish, Japanese, Chinese</Language>
+      <LanguageID>1033, 2057, 1031, 1044, 1053, 1043, 1030, 1036, 3082, 1046, 1035, 1041, 2052</LanguageID>
+    </C5>
+	<C5>
+      <C5Name>Sono Lexis</C5Name>
+      <Language>US-English, UK-English, German, Danish</Language>
+	  <LanguageID>1033, 2057, 1031, 1030</LanguageID>
+    </C5>
+	<C5>
+      <C5Name>Sono Primo for Communicator</C5Name>
+      <Language>US-English, UK-English, German, Norwegian, Swedish, Dutch</Language>
+      <LanguageID>1033, 2057, 1031, 1044, 1053, 1043</LanguageID>
+    </C5>
+	<C5>
+      <C5Name>Sono Flex</C5Name>
+      <Language>US-English, UK-English, German, Norwegian, Swedish, Dutch, Danish, Portugul(Br)</Language>
+	  <LanguageID>1033, 2057, 1031, 1044, 1053, 1043, 1030, 1046</LanguageID>
+    </C5>
+	<C5>
+      <C5Name>LiterAACy</C5Name>
+      <Language>US-English, UK-English, German</Language>
+	  <LanguageID>1033, 2057, 1031</LanguageID>
+    </C5>
+	<C5>
+      <C5Name>SymbolStix 2</C5Name>
+      <Language>US-English, UK-English, German, Norwegian, Swedish, Dutch, Danish, French, Spanish, Italian, Portugul(Br), Finnish, Japanese</Language>
+	  <LanguageID>1033, 2057, 1031, 1044, 1053, 1043, 1030, 1036, 3082, 1040, 1046, 1035, 1041</LanguageID>
+    </C5>
+	<C5>
+      <C5Name>METACOM</C5Name>
+      <Language>German</Language>
+	  <LanguageID>1031</LanguageID>
+    </C5>	
+	<C5>
+      <C5Name>PCS for Communicator 5</C5Name>
+      <Language>US-English, UK-English, German, Norwegian, Swedish, Dutch, Danish, French, Spanish, Italian, Portugul(Br), Finnish, Japanese, Chinese</Language>
+	  <LanguageID>1033, 2057, 1031, 1044, 1053, 1043, 1030, 1036, 3082, 1040, 1046, 1035, 1041, 2052</LanguageID>
+    </C5>	
+</C5set>
+
+  <C5Voiceset>
+  	<C5voice>
+      <C5Voices>Heather, Kenny, Laura, Micah, Nelly, Ryan, Saul, Tracy, Will, Ella, Josh, Emilio (Spanish), Emilio (English), Valeria (Spanish), Valeria (English)</C5Voices>
+      <Language>US-English</Language>
+      <LanguageID>1033</LanguageID>
+    </C5voice>
+	<C5voice>
+      <C5Voices>Lucy, Graham, Peter, Queen Elizabeth, Rachel, Harry, Rosie</C5Voices>
+      <Language>UK-English</Language>
+      <LanguageID>2057</LanguageID>
+    </C5voice>
+	<C5voice>
+      <C5Voices>Klaus, Andreas, Jonas, Julia, Lea, Sarah</C5Voices>
+      <Language>German</Language>
+      <LanguageID>1031</LanguageID>
+    </C5voice>
+	<C5voice>
+      <C5Voices>Kari, Bente, Olav, Emilie, Elias</C5Voices>
+      <Language>Norwegian</Language>
+      <LanguageID>1044</LanguageID>
+    </C5voice>
+	<C5voice>
+      <C5Voices>Emma, Elin, Emil, Erik, Filip, Freja</C5Voices>
+      <Language>Swedish</Language>
+      <LanguageID>1053</LanguageID>
+    </C5voice>
+	<C5voice>
+      <C5Voices>Femke, Daan, Jasmijn, Jeroe, Max, Sofie (Belgium), Zoe (Belgium), Merel, Thijs</C5Voices>
+      <Language>Dutch</Language>
+      <LanguageID>1043</LanguageID>
+    </C5voice>
+	<C5voice>
+      <C5Voices>Mette, Rasmus</C5Voices>
+      <Language>Danish</Language>
+      <LanguageID>1030</LanguageID>
+    </C5voice>
+	<C5voice>
+      <C5Voices>Julie, Alice, Antoine, Bruno, Claire,Louise, Margaux, Anais, Elise, Manon, Valentin</C5Voices>
+      <Language>French</Language>
+      <LanguageID>1036</LanguageID>
+    </C5voice>
+	<C5voice>
+      <C5Voices>Rosa , Antonio, Javier,Ines, Maria, Emilio (spantsh), Emilio (English), Valeria (spantsh), Valeria (English)</C5Voices>
+      <Language>Spanish</Language>
+      <LanguageID>3082</LanguageID>
+    </C5voice>
+	<C5voice>
+      <C5Voices>Chiara, Fabiana</C5Voices>
+      <Language>Italian</Language>
+      <LanguageID>1040</LanguageID>
+    </C5voice>
+	<C5voice>
+      <C5Voices>Marcia, Carlos, Paola, Celia (Portugal), Elia, Ester</C5Voices>
+      <Language>Portugul(Br)</Language>
+      <LanguageID>1046</LanguageID>
+    </C5voice>
+	<C5voice>
+      <C5Voices>Sanna</C5Voices>
+      <Language>Finnish</Language>
+      <LanguageID>1035</LanguageID>
+    </C5voice>
+	<C5voice>
+      <C5Voices>Misaki, Show</C5Voices>
+      <Language>Japanese</Language>
+      <LanguageID>1041</LanguageID>
+    </C5voice>
+	<C5voice>
+      <C5Voices>Hui, Liang</C5Voices>
+      <Language>Chinese</Language>
+      <LanguageID>2052</LanguageID>
+    </C5voice>
+</C5Voiceset>
+
+</Data>
