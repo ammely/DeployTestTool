@@ -26,7 +26,8 @@ Function Convert-LanguageIDToName {
         1031 = "German"
         1033 = "US-English"
         1035 = "Finnish"
-        1036 = "French"
+        1036 = "French (Fr)"
+        3084 = "French (Ca)"
         1040 = "Italian"
         1041 = "Japanese"
         1043 = "Dutch"
@@ -34,7 +35,8 @@ Function Convert-LanguageIDToName {
         1046 = "Portugul(Br)"
         1053 = "Swedish"
         2057 = "UK-English"
-        3082 = "Spanish"
+        3082 = "Spanish (Sp)"
+        2058 = "Spanish (Mx)"
     }
 
     # Convert language ID to name using the hashtable
@@ -97,19 +99,21 @@ Function LogPass {
 LogPass -message "DeviceModel: $DeviceModel`r`nLanguageID: $languageID($languageName)`r`nOSEdition: $osedition`r`nOSVersion: $osVersion`r`n" -outputBox $outputBox
 
 #Save config file
-Copy-Item -Path "C:\Users\Qa\AppData\Local\Temp\TdxConfigurationManager.log" -Destination $fpathscript
+$Configpath = "C:\Users\Qa\AppData\Local\Temp\TdxConfigurationManager.log"
+if (Test-Path $Configpath) {
+    Copy-Item -Path $Configpath -Destination $fpathscript 
 #Rename-Item -Path "$fpathscript\TdxConfigurationManager.log" -NewName "$DeviceModel-$model-$languageName-TdxConfigurationManager.log" -Force
-$sourceFilePath = "$fpathscript\TdxConfigurationManager.log"
-$newFileName = "$DeviceModel-$model-$languageName-TdxConfigurationManager.log"
-$destinationFilePath = Join-Path -Path $fpathscript -ChildPath $newFileName
+    $sourceFilePath = "$fpathscript\TdxConfigurationManager.log"
+    $newFileName = "$DeviceModel-$model-$languageName-TdxConfigurationManager.log"
+    $destinationFilePath = Join-Path -Path $fpathscript -ChildPath $newFileName
+    # Check if the destination file already exists and delete it if it does
+    if (Test-Path -Path $destinationFilePath -PathType Leaf) {
+        Remove-Item -Path $destinationFilePath -Force
+    }
 
-# Check if the destination file already exists and delete it if it does
-if (Test-Path -Path $destinationFilePath -PathType Leaf) {
-    Remove-Item -Path $destinationFilePath -Force
+    # Rename the source file to the new name
+    Rename-Item -Path $sourceFilePath -NewName $newFileName -Force
 }
-
-# Rename the source file to the new name
-Rename-Item -Path $sourceFilePath -NewName $newFileName -Force
 
 # Load the XML file and Select all software requirements
 $xmlFilePath = "$fpathscript\file.xml"
@@ -339,7 +343,7 @@ Function ApplicationVersions {
         $CompareVersions = Compare-Object -DifferenceObject $xmlversion -ReferenceObject $installedswversion -CaseSensitive
         
         if ($CompareVersions -ne $null) {
-            LogPass -message "FAIL: $xmlswName installed version is $installedswversion while it shoule be $xmlversion according to XML file`r`n" -outputBox $outputBox
+            LogPass -message "FAIL: $xmlswName installed version is $installedswversion while it should be $xmlversion according to XML file`r`n" -outputBox $outputBox
         } 
     }
 

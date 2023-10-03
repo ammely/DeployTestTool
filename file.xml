@@ -16,8 +16,8 @@
       <Name>Boardmaker 7 Student Center</Name>
       <Version>7.2.5.0</Version>
       <Model>ISeries</Model>
-      <Language>US-English, UK-English, German, Norwegian, Swedish, Danish, French, Spanish, Italian, Portugul(Br), Finnish</Language>
-	  <LanguageID>1033, 2057, 1031, 1044, 1053, 1030, 1036, 3082, 1040, 1046, 1035</LanguageID>
+      <Language>US-English, UK-English, German, Norwegian, Swedish, Danish, French (Ca), Spanish (Mx), Italian, Portugul(Br), Finnish</Language>
+	  <LanguageID>1033, 2057, 1031, 1044, 1053, 1030, 3084, 2058, 1040, 1046, 1035</LanguageID>
     </SoftwareRequirement>
     <SoftwareRequirement>
       <Name>TobiiDynavox.DiscoverTobiiDynavox</Name>
@@ -289,14 +289,14 @@
 	<SoftwareRequirement>
 	  <Name>Voix françaises pour Tobii Communicator</Name>
       <Version>3.3.0.204</Version>
-	  <Language>French</Language>
-	  <LanguageID>1036</LanguageID>
+	  <Language>French (Ca)</Language>
+	  <LanguageID>3084</LanguageID>
     </SoftwareRequirement>
 	<SoftwareRequirement>
       <Name>Voces españolas para Tobii Communicator</Name>
       <Version>3.1.0.151</Version>
-	  <Language>Spanish</Language>
-	  <LanguageID>3082</LanguageID>
+	  <Language>Spanish (Mx)</Language>
+	  <LanguageID>2058</LanguageID>
     </SoftwareRequirement> 	
 	<SoftwareRequirement>
       <Name>Voci italiane per Tobii Communicator</Name>
@@ -321,8 +321,8 @@
   <C5set>
 	<C5>
       <C5Name>Sono Key</C5Name>
-      <Language>US-English, UK-English, German, Norwegian, Swedish, Dutch, Danish, French, Spanish, Portugul(Br), Finnish, Japanese, Chinese</Language>
-      <LanguageID>1033, 2057, 1031, 1044, 1053, 1043, 1030, 1036, 3082, 1046, 1035, 1041, 2052</LanguageID>
+      <Language>US-English, UK-English, German, Norwegian, Swedish, Dutch, Danish, French (Ca), Spanish (Mx), Portugul(Br), Finnish, Japanese, Chinese</Language>
+      <LanguageID>1033, 2057, 1031, 1044, 1053, 1043, 1030, 3084, 2058, 1046, 1035, 1041, 2052</LanguageID>
     </C5>
 	<C5>
       <C5Name>Sono Lexis</C5Name>
@@ -346,8 +346,8 @@
     </C5>
 	<C5>
       <C5Name>SymbolStix 2</C5Name>
-      <Language>US-English, UK-English, German, Norwegian, Swedish, Dutch, Danish, French, Spanish, Italian, Portugul(Br), Finnish, Japanese</Language>
-	  <LanguageID>1033, 2057, 1031, 1044, 1053, 1043, 1030, 1036, 3082, 1040, 1046, 1035, 1041</LanguageID>
+      <Language>US-English, UK-English, German, Norwegian, Swedish, Dutch, Danish, French (Ca), Spanish (Mx), Italian, Portugul(Br), Finnish, Japanese</Language>
+	  <LanguageID>1033, 2057, 1031, 1044, 1053, 1043, 1030, 3084, 2058, 1040, 1046, 1035, 1041</LanguageID>
     </C5>
 	<C5>
       <C5Name>METACOM</C5Name>
@@ -356,8 +356,8 @@
     </C5>	
 	<C5>
       <C5Name>PCS for Communicator 5</C5Name>
-      <Language>US-English, UK-English, German, Norwegian, Swedish, Dutch, Danish, French, Spanish, Italian, Portugul(Br), Finnish, Japanese, Chinese</Language>
-	  <LanguageID>1033, 2057, 1031, 1044, 1053, 1043, 1030, 1036, 3082, 1040, 1046, 1035, 1041, 2052</LanguageID>
+      <Language>US-English, UK-English, German, Norwegian, Swedish, Dutch, Danish, French (Ca), Spanish (Mx), Italian, Portugul(Br), Finnish, Japanese, Chinese</Language>
+	  <LanguageID>1033, 2057, 1031, 1044, 1053, 1043, 1030, 3084, 2058, 1040, 1046, 1035, 1041, 2052</LanguageID>
     </C5>	
 </C5set>
 
@@ -399,13 +399,13 @@
     </C5voice>
 	<C5voice>
       <C5Voices>Julie, Alice, Antoine, Bruno, Claire,Louise, Margaux, Anais, Elise, Manon, Valentin</C5Voices>
-      <Language>French</Language>
-      <LanguageID>1036</LanguageID>
+      <Language>French (Ca)</Language>
+      <LanguageID>3084</LanguageID>
     </C5voice>
 	<C5voice>
       <C5Voices>Rosa , Antonio, Javier,Ines, Maria, Emilio (spantsh), Emilio (English), Valeria (spantsh), Valeria (English)</C5Voices>
-      <Language>Spanish</Language>
-      <LanguageID>3082</LanguageID>
+      <Language>Spanish (Mx)</Language>
+      <LanguageID>2058</LanguageID>
     </C5voice>
 	<C5voice>
       <C5Voices>Chiara, Fabiana</C5Voices>
